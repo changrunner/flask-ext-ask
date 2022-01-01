@@ -1,0 +1,7 @@
+package_version: 1.0.22
+project:
+  author: Gert Haegdorens
+  author_email: Gert@Haegdorens.com
+  description: Program Alex using Flask and Alexa Skills Api
+  project_name: flask-ext-ask
+  url: https://github.com/changrunner/flask-ext-ask

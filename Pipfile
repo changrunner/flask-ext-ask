@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "test_pypi"
+url = "https://test.pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mypy = "==0.910"
+pylint = "==2.11.1"
+pytest = ">=6.2.5"
+python-decouple = ">=3.5"
+pyyaml = ">=6.0"
+setuptools = ">=49.6.0"
+wheel = ">=0.35.1"
+twine = ">=3.2.0"
+
+[packages]
+flask = ">=2.0.2"
+
+
+[requires]
+python_version = "3.8"
